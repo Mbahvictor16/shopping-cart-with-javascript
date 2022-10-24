@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font6/css/all.css">
+    <link rel="stylesheet" href="font6/css/style.css">
+    <title>Cart Shopping</title>
+</head>
+<body>
+    <header>
+        <span class="shop-icon"><i class="fa fa-shopping-cart" aria-hidden="true" data-cart-count="1"></i></span>
+    </header>
+
+    <section class="product">
+        <figure>
+            <img src="img/iphone13promax.jpeg" alt="">
+            <figcaption>
+                <div class="product-name">iPhone 13 Pro Max</div>
+                <div class="price-like">
+                    <div class="like">
+                        <i class="fa fa-heart" aria-hidden="true"></i><span class="like-count"></span>
+                    </div>
+                    <div class="price">&dollar;169.99</div>
+                </div>
+                <div class="call-to-action">
+                    <button class="cart-button"><i class="fa fa-shopping-basket"></i>Add to Cart</button>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/redminote11s.jpeg" alt="">
+            <figcaption>
+                <div class="product-name">Redmi Note 11s</div>
+                <div class="price-like">
+                    <div class="like">
+                        <i class="fa fa-heart" aria-hidden="true"></i><span class="like-count"></span>
+                    </div>
+                    <div class="price">&dollar;69.99</div>
+                </div>
+                <div class="call-to-action">
+                    <button class="cart-button"><i class="fa fa-shopping-basket"></i>Add to Cart</button>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/redminote11pro+.jpeg" alt="">
+            <figcaption>
+                <div class="product-name">Redmi Note 11 pro+</div>
+                <div class="price-like">
+                    <div class="like">
+                        <i class="fa fa-heart" aria-hidden="true"></i><span class="like-count"></span>
+                    </div>
+                    <div class="price">&dollar;690.99</div>
+                </div>
+                <div class="call-to-action">
+                    <button class="cart-button"><i class="fa fa-shopping-basket"></i>Add to Cart</button>
+                </div>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/samsungS22+(2).jpeg" alt="">
+            <figcaption>
+                <div class="product-name">Samsung S22+</div>
+                <div class="price-like">
+                    <div class="like">
+                        <i class="fa fa-heart" aria-hidden="true"></i><span class="like-count"></span>
+                    </div>
+                    <div class="price">&dollar;609.99</div>
+                </div>
+                <div class="call-to-action">
+                    <button class="cart-button"><i class="fa fa-shopping-basket"></i> Add to Cart</button>
+                </div>
+            </figcaption>
+        </figure>
+
+       <div class="table">
+            <div class="cart-table">
+                <div id="close-cart"><span id="close-cart-page">&times;</span></div>    
+                <div class="table-body">
+                    <div class="table-row">
+                        <div class="product"><img src="img/redminote11pro+.jpeg"> <span class="cart-product-name">Redmi Note 11 pro+</span></div>
+                        <div class="item">&dollar;690.99</div>
+                        <div class="quantity"><input class="quantity-input" type="number" value="1"> <button class="remove">Remove</button></div>
+                    </div>
+                </div>
+                <div class="cart-total">Total:<span id="total">&dollar;690.99</span></div>
+                <div class="purchase"><button id="purchase">Purchase</button></div>
+            </div>
+       </div>
+        
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
